@@ -3,7 +3,7 @@ import pygame
 from Vec2d import Vec2d
 pygame.init()
 
-done = False
+
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 BLUE = (0, 0, 255)
@@ -92,6 +92,8 @@ def translate(x, y, angle, px, py):
 
 vehicle = Vehicle(100, size-100)
 ld = 150
+
+done = False
 
 while not done:
 
